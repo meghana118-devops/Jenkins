@@ -1,10 +1,4 @@
-pipeline{
-  agent any
-  stages{
-    stage('Build'){
-      steps{
-        echo "buidling my first pipeline"
-      }
-    }
-  }
-}
+@Library("com.mylearning.slb@main") _
+mavenPipeline.groovy (
+  appName: 'TestApp'
+)
