@@ -1,4 +1,4 @@
 @Library("com.mylearning.slb@main") _
-mavenPipeline.groovy (
+mavenPipeline (
   appName: 'TestApp'
 )
