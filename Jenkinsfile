@@ -1,4 +1,4 @@
-@Library("com.my learning.slb@main") _
+@Library("sharedlibrary-maven@main") _
 mavenPipeline (
   appName: 'TestApp'
 )
